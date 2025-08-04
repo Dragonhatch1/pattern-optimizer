@@ -46,6 +46,10 @@ fn main() -> Result<(), std::io::Error> {
             "n987".to_string(),
             serde_json::from_str::<RecipeDatabase>(include_str!("recipes/recipes-n987.json"))?,
         ),
+        (
+            "2.8.0-beta-1".to_string(),
+            serde_json::from_str::<RecipeDatabase>(include_str!("recipes/recipes-2.8.0-beta-1.json"))?,
+        ),
     ]));
 
     for stream in listener.incoming() {
