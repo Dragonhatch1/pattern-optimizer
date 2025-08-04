@@ -1,6 +1,6 @@
 require 'json'
 
-class Convert
+class RecexConverter
   attr_reader :input, :output
 
   def initialize(input, output)
@@ -61,8 +61,8 @@ if ARGV.length != 2
   abort "Usage: #{$0} in.json out.json"
 end
 
-convertor = Convert.new(ARGV[0], ARGV[1])
-convertor.write
+converter = RecexConverter.new(ARGV[0], ARGV[1])
+converter.write
 
 
 
