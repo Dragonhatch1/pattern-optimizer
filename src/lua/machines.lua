@@ -138,7 +138,7 @@ local machines = {
     ["assembler"] = {
         id = "Precise Auto-Assembler MT-3662",
         recipes = {"Assembler"},
-        energyUsage = 1 * EU[ULV],
+        energyUsage = 8 * EU[UHV],
         tier = 0, -- Mk-0 = 0, Mk-I = 1, Mk-II = 2, Mk-III = 3, Mk-IV = 4
     },
     ["autoclave"] = {
