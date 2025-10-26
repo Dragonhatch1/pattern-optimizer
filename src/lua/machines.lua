@@ -139,7 +139,7 @@ local machines = {
         id = "Precise Auto-Assembler MT-3662",
         recipes = {"Assembler"},
         energyUsage = 8 * EU[UHV],
-        tier = 0, -- Mk-0 = 0, Mk-I = 1, Mk-II = 2, Mk-III = 3, Mk-IV = 4
+        tier = 1, -- Mk-0 = 0, Mk-I = 1, Mk-II = 2, Mk-III = 3, Mk-IV = 4
     },
     ["autoclave"] = {
         id = "Industrial Autoclave",
@@ -152,7 +152,7 @@ local machines = {
     ["bender"] = {
         id = "Industrial Material Press",
         recipes = {"Bending Machine"},
-        energyUsage = 1 * EU[ULV],
+        energyUsage = 1 * EU[UV],
     },
     ["blackhole"] = {
         id = "Pseudostable Black Hole Containment Field",
@@ -168,7 +168,7 @@ local machines = {
     ["cal"] = {
         id = "Circuit Assembly Line",
         recipes = {"Circuit Assembly Line", "Circuit Assembler"},
-        energyUsage = 1 * EU[ULV],
+        energyUsage = 1 * EU[UHV],
     },
     ["centrifuge"] = {
         id = "Industrial Centrifuge",
